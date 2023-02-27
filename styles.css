@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  background-color: #a200ff;
+  background-image: url("https://www.transparenttextures.com/patterns/grey-jean.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+table, .table2 {
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px 20px;
+  border: 1px solid;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+button{
+      position:relative;
+      background-color:rgb(44, 207, 98);
+      color: black;
+      border:1px solid black;
+      border-radius:10px;
+      padding:15px;
+      margin:15px;
+      min-height:30px;
+      min-width: 120px;
+}
